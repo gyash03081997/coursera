@@ -1,0 +1,23 @@
+Porter stemmer -
+1. Works differently for capital and small "Dying" and "dying" respectively in porter and not in Lancaster
+
+2. Last 2 letter vowels then -
+
+i.> changes to i if 2 different vowels at the end like "brownie" between lancaster and porter
+ii.> changes to chopping off single letter at the end in words with same last letters(vowels) like "employee" and 
+"proctee" between lancaster and porter
+
+3. words like "cry" and "die" differ in both lancaster and porter like "die" is result for porter but in case 
+of "cry" its "cri" and vice-versa. Many words which in main form ending with -y show results like "cry" 
+
+4.-ible strictly chopped off the word in the results in lancaster stemmer and -ment in porter stemmer. Mostly suffix part is removed and 
+results are in a rigid pattern of words with chopped off suffix, more in porter than in lancaster stemmer however lancaster returns base 
+form successfully most times.
+
+
+
+   
+
+
+
+
